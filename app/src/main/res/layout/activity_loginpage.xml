@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@drawable/main_back"
+    tools:context=".loginpage">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_log_in"
+        android:textSize="45sp"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/login_etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_address"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#c6c6c6"
+        android:textColor="#fff"
+        tools:ignore="Autofill" />
+    <EditText
+        android:id="@+id/login_etPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:textAlignment="center"
+        android:textColorHint="#c6c6c6"
+        android:textColor="#fff"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        tools:ignore="Autofill" />
+    <Button
+        android:id="@+id/login_btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_log_in"
+        android:textColor="#fff"
+        android:background="@drawable/btn_back_login"
+        />
+</LinearLayout>

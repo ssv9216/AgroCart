@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">AgroCart</string>
+    <string name="main_register">Register</string>
+    <string name="main_log_in">Log In</string>
+    <string name="registration">Registration</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="enter_contact_number">Enter Contact Number</string>
+    <string name="state">State</string>
+    <string name="district">District</string>
+    <string name="taluka">taluka</string>
+    <string name="village">village</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="enter_password">enter password</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="password">password</string>
+    <string name="enter_email_address">Enter Email Address</string>
+    <string name="email_address">Email Address</string>
+    <string name="home">Home</string>
+    <string name="policies">Policies</string>
+    <string name="sell">Sell</string>
+    <string name="news">News</string>
+    <string name="profile">Profile</string>
+
+    <string name="crops_prompt"> Select Crop</string>
+    <string name="enter_crops_weight">Enter Crops weight</string>
+    <string name="kg">KG</string>
+    <string name="rs">Rs.</string>
+    <string name="post">Post</string>
+    <string name="enter_price">Enter Price</string>
+    <string-array name="crops_names">
+
+        <item>Rice</item>
+        <item>Wheat</item>
+        <item>Brinjal</item>
+        <item>Beans</item>
+        <item>Cucumber</item>
+        <item>Ladies fingers</item>
+        <item>Cabbage</item>
+        <item>Pumpkin</item>
+
+    </string-array>
+
+</resources>
